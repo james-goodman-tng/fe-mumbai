@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.clock-container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.city-name {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.time {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #000000;
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+}
+
+.date {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.timezone {
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 15px;
+}
+
+.status {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.status.error {
+    color: #e74c3c;
+}
+
+.status.success {
+    color: #27ae60;
+}
